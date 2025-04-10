@@ -1,5 +1,5 @@
 {
-  "name": "@google/generative-ai",
+  "name": "@braincompany/generative-ai",
   "version": "0.24.0",
   "description": "Google AI JavaScript SDK",
   "main": "dist/index.js",
@@ -81,12 +81,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/google/generative-ai-js.git"
+    "url": "git+https://github.com/braincompany/generative-ai-js.git"
   },
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/google/generative-ai-js/issues"
   },
-  "homepage": "https://github.com/google/generative-ai-js#readme"
+  "homepage": "https://github.com/google/generative-ai-js#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
