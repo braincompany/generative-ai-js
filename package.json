@@ -43,6 +43,9 @@
     "format": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"nodenext\"}' npx ts-node scripts/run-format.ts",
     "format:check": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"nodenext\"}' npx ts-node scripts/check-format.ts"
   },
+  "overrides": {
+    "basic-ftp": "6.0.1"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "@esm-bundle/chai": "^4.3.4-fix.0",
